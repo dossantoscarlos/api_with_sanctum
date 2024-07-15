@@ -15,7 +15,7 @@ Accept: application/json
 }
 
 ###
-POST http://vt1_clin.test/api/register
+POST https://apiwithsanctum-dossantoscarlos-projects.vercel.app/api/register
 Content-Type: application/json
 Accept: application/json
 
