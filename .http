@@ -1,0 +1,28 @@
+GET http://vt1_clin.test/api/user
+Content-Type: application/json
+Accept: application/json
+Authorization: Bearer 4|rv6YF1xvUDgseNLoAPCgxXqEILsYzH09yHod9nmY8f26e41a
+
+####
+POST http://vt1_clin.test/api/auth
+Content-Type: application/json
+Accept: application/json
+
+{
+    "email": "email@emaiyl.com",
+    "password": "carlos10",
+    "remember": true
+}
+
+###
+POST http://vt1_clin.test/api/register
+Content-Type: application/json
+Accept: application/json
+
+{
+    "name": "Carlos eduardo",
+    "email": "email@emaiyl.com",
+    "password": "carlos10",
+    "remember": true
+}
+
